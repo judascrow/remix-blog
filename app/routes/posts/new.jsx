@@ -9,9 +9,9 @@ export const action = async ({ request }) => {
 
   const fields = { title, body };
 
-  console.log(fields);
+  // @todo - submit to database
 
-  return redirect("/posts");
+  // return redirect("/posts");
 };
 
 const NewPost = () => {
